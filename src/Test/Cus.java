@@ -8,13 +8,13 @@ public class Cus {
      int customer = 0;
      
      Scanner oj = new Scanner(System.in);
-     System.out.print("ลูกค้าคนที่   = ");
+     System.out.print("Input Customer :   = ");
      customer = oj.nextInt();
-     System.out.print("จำนวนที่ซื้อ =  ");
+     System.out.print("Input Number =  ");
      order = oj.nextInt();
-     System.out.print("จำนวนเงิน = ");
+     System.out.print("Input Price = ");
      price = oj.nextInt();
-     //  ***ลูกค้าคนที่  1*** //  
+     //  Customer 1 *** //  
      
     if(customer==1){
      if (order < 10)
@@ -35,12 +35,12 @@ public class Cus {
         net = price-discount;
         }
    
-     System.out.println("เลินที่ลด  = " + discount+ "บาท");
-     System.out.println("ลูกค้าA จำนวนเงินที่ต้องจ่าย = " + net + "บาท");
+   System.out.println(" discount  = " + discount+ " Baht");
+      System.out.println("Customer A Pay = " + net + " Baht");
 	
      
         
-        //  ***ลูกค้าคนที่ิ 2 *** //  
+        //  *** Customer 2 *** //  
         
   }else if (customer==2){
 	  if (order < 10)
@@ -61,11 +61,11 @@ public class Cus {
       discount = price * 25 / 100;
       net = price-discount;
       }
-	  System.out.println("เลินที่ลด  = " + discount+ "บาท");
-      System.out.println("ลูกค้า B จำนวนเงินที่ต้องจ่าย = " + net + "บาท");
+	  System.out.println(" discount  = " + discount+ " Baht");
+      System.out.println("Customer B Pay = " + net + " Baht");
 	
       
-      //  ***ลูกค้าคนที่  3*** //  
+      //  *** Customer  3 *** //  
       
   }else if (customer==3){
 	  if (order < 10)
@@ -85,11 +85,11 @@ public class Cus {
       discount = price * 25 / 100;
       net = price-discount;
       }
-	  System.out.println("เลินที่ลด  = " + discount+ "บาท");
-      System.out.println("ลูกค้าคนที่  C จำนวนเงินที่ต้องจ่าย = " + net + "บาท");
+	  System.out.println(" discount  = " + discount+ " Baht");
+      System.out.println("Customer C Pay = " + net + " Baht");
 	
   }else{
-	  System.out.println("ไม่มีลูกค้าดังกล่าว");
+	  System.out.println(" No  Customer ");
 	  
 	  
   }
