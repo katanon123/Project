@@ -34,8 +34,11 @@ public class Cus {
         discount = price * 10 / 100;
         net = price-discount;
         }
+
       System.out.println(" Total Price = " + price+ " Baht");
-      System.out.println(" discount  = " + discount+ " Baht");
+      System.out.println(" discount  = " + discount+ " Baht"); 
+ 
+
       System.out.println("Customer A Pay = " + net + " Baht");
 	
      
@@ -61,7 +64,9 @@ public class Cus {
       discount = price * 25 / 100;
       net = price-discount;
       }
+
 	  System.out.println(" Total Price = " + price+ " Baht");
+
 	  System.out.println(" discount  = " + discount+ " Baht");
       System.out.println("Customer B Pay = " + net + " Baht");
 	
@@ -87,6 +92,7 @@ public class Cus {
       net = price-discount;
       }
 	  System.out.println(" Total Price = " + price+ " Baht");
+
 	  System.out.println(" discount  = " + discount+ " Baht");
       System.out.println("Customer C Pay = " + net + " Baht");
 	
@@ -98,4 +104,4 @@ public class Cus {
 }
 }	  
 	 
-	    
+
