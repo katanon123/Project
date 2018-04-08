@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClassLibrary", "CommonClassLibrary\CommonClassLibrary.csproj", "{75BDDD90-A826-4827-8EAD-12D337A1A0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSME946WcfService", "MobileAppsWcfService\DSME946WcfService.csproj", "{5733D982-A72C-4279-886F-6DF05A5AFFB1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ManagementWebSite", "ManagementWebSite", "{D32F8BCC-7E48-4313-9613-8550F155523C}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{75bddd90-a826-4827-8ead-12d337a1a0fc}|CommonClassLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61967"
+		Debug.AspNetCompiler.PhysicalPath = "ManagementWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61967\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61967"
+		Release.AspNetCompiler.PhysicalPath = "ManagementWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61967\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61967"
+		SlnRelativePath = "ManagementWebSite\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75BDDD90-A826-4827-8EAD-12D337A1A0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BDDD90-A826-4827-8EAD-12D337A1A0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BDDD90-A826-4827-8EAD-12D337A1A0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BDDD90-A826-4827-8EAD-12D337A1A0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5733D982-A72C-4279-886F-6DF05A5AFFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5733D982-A72C-4279-886F-6DF05A5AFFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5733D982-A72C-4279-886F-6DF05A5AFFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5733D982-A72C-4279-886F-6DF05A5AFFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32F8BCC-7E48-4313-9613-8550F155523C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32F8BCC-7E48-4313-9613-8550F155523C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32F8BCC-7E48-4313-9613-8550F155523C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32F8BCC-7E48-4313-9613-8550F155523C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://118.175.240.20:8080/tfs/pak
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CommonClassLibrary\\CommonClassLibrary.csproj
+		SccProjectName1 = CommonClassLibrary
+		SccLocalPath1 = CommonClassLibrary
+		SccWebProject2 = true
+		SccProjectUniqueName2 = ManagementWebSite
+		SccProjectName2 = ManagementWebSite
+		SccLocalPath2 = ManagementWebSite
+		SccProjectEnlistmentChoice2 = 2
+		SccProjectUniqueName3 = MobileAppsWcfService\\DSME946WcfService.csproj
+		SccProjectName3 = MobileAppsWcfService
+		SccLocalPath3 = MobileAppsWcfService
+	EndGlobalSection
+EndGlobal
